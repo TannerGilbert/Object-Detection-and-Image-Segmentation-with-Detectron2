@@ -1,0 +1,13 @@
+version: '2.3'
+
+services:
+   detectron2:
+     container_name: detectron2
+     build: ./
+     restart: always
+     ports:
+      - '8888:8888'
+     runtime: nvidia
+     environment:
+      - DISPLAY=$DISPLAY
+      - NVIDIA_VISIBLE_DEVICES=all
