@@ -17,11 +17,20 @@ For those of you who also want to use Jupyter notebooks inside their container, 
 
 ## Inference with pre-trained model
 
-Using a pre-trained model for inference is as easy as loading in the cofiguration and weights and creating a predictor object. For a example check out [Detectron2_inference_with_pre_trained_model.ipynb](Detectron2_inference_with_pre_trained_model.ipynb).
+* [Detectron2 Inference with pretrained model](Detectron2_inference_with_pre_trained_model.ipynb).
+* [Detect from Webcam or Video](detect_from_webcam_or_video.py)
+* [Detectron2 RestAPI](deploy/rest-api)
 
 ## Training on a custom dataset
 
-Training a model on a custom dataset is a bit more challenging because it requires that we [register our dataset](https://detectron2.readthedocs.io/tutorials/datasets.html#register-a-dataset). For a example showing you how to train a balloon detection model check out [Detectron2_train_on_a_custom_dataset.ipynb](Detectron2_train_on_a_custom_dataset.ipynb).
+* [Detectron2 train on a custom dataset](Detectron2_train_on_a_custom_dataset.ipynb).
+* [Detectron2 train with data augmentation](Detectron2_Train_on_a_custom_dataset_with_data_augmentation.ipynb)
+* [Detectron2 Chess Detection](Detectron2_Detect_Chess_Detection.ipynb)
+* [Detectron2 Vehicle Detection](Detectron2_Vehicle_Detection.ipynb)
+
+## Export model
+
+* [Detectron2 Export model to Caffe2, Onnx and Torchvision](Detectron2_train_and_export_model.ipynb)
 
 ## Author
  **Gilbert Tanner**
