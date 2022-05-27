@@ -54,7 +54,7 @@ if __name__ == '__main__':
                 break
         
         if args.save_path:
-            out.write(image)
+            out.write(v.get_image()[:, :, ::-1])
     cap.release()
     if args.save_path:
         out.release()

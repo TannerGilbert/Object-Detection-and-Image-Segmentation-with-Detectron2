@@ -53,5 +53,5 @@ if __name__ == '__main__':
                 break
         
         if args.save_path:
-            cv2.imwrite(os.path.join(args.save_path, os.path.basename(i_path)), image)
+            cv2.imwrite(os.path.join(args.save_path, os.path.basename(i_path)), v.get_image()[:, :, ::-1])
     cv2.destroyAllWindows()
