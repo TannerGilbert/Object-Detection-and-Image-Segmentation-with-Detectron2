@@ -28,10 +28,6 @@ For those of you who also want to use Jupyter notebooks inside their container, 
 * [Detectron2 Chess Detection](Detectron2_Detect_Chess_Detection.ipynb)
 * [Detectron2 Vehicle Detection](Detectron2_Vehicle_Detection.ipynb)
 
-## Export model
-
-* [Detectron2 Export model to Caffe2, Onnx and Torchvision](Detectron2_train_and_export_model.ipynb)
-
 ## D2Go
 
 * [D2GO_Introduction](D2Go/D2GO_Introduction.ipynb)
